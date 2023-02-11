@@ -11,7 +11,15 @@ module.exports = {
   ],
   darkMode:'class',
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        burtons:'burtons'
+      },
+      fontFamily:{
+        'Nanum Pen Script' : 'nanum'
+      }
+    },
   },
   plugins: [],
 }
+

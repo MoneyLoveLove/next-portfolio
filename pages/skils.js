@@ -1,6 +1,7 @@
 
 import Layout from "@/components/layout";
 import Head from 'next/head'
+import { Roboto } from "@next/font/google";
 
 export default function AboutMe(){
     return (
@@ -13,7 +14,7 @@ export default function AboutMe(){
         </Head>
 
         <h1 class="text-center text-green-700 text-4xl font-bold ">
-            GeeksforGeeks
+            skils
         </h1> 
         <div className="grid grid-cols-3 gap-2 place-items-center m-4">
             <div>dddd</div>

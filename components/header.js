@@ -14,15 +14,15 @@ export default function Header(){
                 <span className="ml-3 text-xl"><b>HOME</b></span>
                 </a>
                 </Link>
-                <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                <Link Link href="/about-me" legacyBehavior>
-                    <a className="mr-5 hover:text-gray-900">프로필</a>
+                <nav className="md:ml-auto flex flex-wrap items-center text-lg justify-center">
+                <Link href="/about" legacyBehavior>
+                    <a className="mr-5 hover:text-gray-900">aboutMe</a>
                 </Link>
-                <Link href="/projects" legacyBehavior><a className="mr-5 hover:text-gray-900">프로젝트</a></Link>
+                <Link Link href="/skils" legacyBehavior>
+                    <a className="mr-5 hover:text-gray-900">skils</a>
+                </Link>
+                <Link href="/projects" legacyBehavior><a className="mr-5 hover:text-gray-900">project</a></Link>
                
-                <Link href="/call" legacyBehavior>
-                    <a className="mr-5 hover:text-gray-900">연락하기</a>
-                </Link>
                 </nav>
                 {/* 다크모드 토글 버튼 작업해야함 */}
                 <DarkModeToggleButton/>
