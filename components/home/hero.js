@@ -16,8 +16,8 @@ export default function Hero(){
             <Link Link href="/projects" legacyBehavior>
               <a className="inline-flex text-white dark:text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">프로젝트 보러가기</a>
             </Link>
-            <Link rel='noreferrer' Link href={"https://somber-shoe-d28.notion.site/09b9e0fd44a348b7bd422a14d3e9a0bc"} legacyBehavior>
-              <a target='_blank' rel='noreferrer' className="ml-4 inline-flex text-white dark:text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">공부기록 보러가기</a>
+            <Link rel="noopener noreferrer" Link href={"https://somber-shoe-d28.notion.site/09b9e0fd44a348b7bd422a14d3e9a0bc"} legacyBehavior>
+              <a target='_blank' rel="noopener noreferrer" className="ml-4 inline-flex text-white dark:text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">공부기록 보러가기</a>
               </Link>
             </div>
           </div>      
