@@ -14,11 +14,11 @@ export default function Header(){
                 <span className="ml-3 text-xl"><b>HOME</b></span>
                 </a>
                 </Link>
-                <nav className="md:ml-auto flex flex-wrap items-center text-lg justify-center">
-                <Link href="/about" legacyBehavior>
+                <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <Link Link href="/about" legacyBehavior>
                     <a className="mr-5 hover:text-gray-900">aboutMe</a>
                 </Link>
-                <Link Link href="/skils" legacyBehavior>
+                <Link href="/skils" legacyBehavior>
                     <a className="mr-5 hover:text-gray-900">skils</a>
                 </Link>
                 <Link href="/projects" legacyBehavior><a className="mr-5 hover:text-gray-900">project</a></Link>

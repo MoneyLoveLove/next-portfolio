@@ -30,24 +30,24 @@ export default function ProjectItem({data}){
     return (
         <div className="project-card">
             <Image
-                className="rounded-t-xl"
+                className="rounded-t-xl "
                 src={imgSrc}
                 alt="cover image"
                 width={30}
-                height={20}
+                height={30}
                 layout="responsive"
-                objectFit="cover"
+                objectFit="none"
                 quality={100}
             />
 
             <div className="p-4 flex flex-col">
-                <h1 className="text-2xl font-bold">{title}</h1>
-                <h3 className="mt-4 text-xl">{description}</h3>
-                <a href={github}>깃허브 바로가기</a>
+                <h1 className="text-xl lg:text-3xl font-bold">{title}</h1>
+                <h3 className="mt-4 text-lg lg:text-2xl">{description}</h3>
+                <a target='_blank' href={github}>깃허브 바로가기</a>
                 <p className="my-1 ">
                     작업기간 : {start} ~ {end} ({calculatedPeriod(start, end)}일)
                 </p>
-                <div className="flex items-start mt-2">
+                <div className="flex items-start justify-self-auto mt-2 ">
                     {tag.map((aTag) => (
                         <h1 className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-sky-700 w-30" key={aTag.id}>{aTag.name}</h1>
                     ))}
