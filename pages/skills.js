@@ -20,16 +20,16 @@ export default function AboutMe(){
                 <div className="mx-10 mb-4 w-full h-full rounded-lg bg-lime-200">
                         <h2 class="text-center text-black bg-amber-300 text-xl md:text-2xl font-bold m-3 ">Tools</h2>
                         <div className="flex w-auto justify-around">
-                            <img className="max-h-[50px] md:max-h-[130px] " src="https://cdn.icon-icons.com/icons2/3053/PNG/512/microsoft_visual_studio_code_alt_macos_bigsur_icon_189955.png" />
-                            <img className="max-h-[50px] md:max-h-[130px] " src="https://cdn.icon-icons.com/icons2/1381/PNG/512/eclipse_94656.png" />
-                            <img className="max-h-[50px] md:max-h-[130px] " src="https://cdn.icon-icons.com/icons2/3053/PNG/512/intellij_macos_bigsur_icon_190061.png" />
+                            <img className="max-h-[50px] md:max-h-[130px] " src="visual_studio_code.png" alt="visual" />
+                            <img className="max-h-[50px] md:max-h-[130px] " src="eclipse.png" />
+                            <img className="max-h-[50px] md:max-h-[130px] " src="intellij.png" />
                         </div>
                     </div>
                     <div className="mx-10 mb-4 w-full h-full rounded-lg bg-lime-200">
                     <h2 class="text-center text-black bg-amber-300 text-xl md:text-2xl font-bold m-3 ">Version Control</h2>
                     <div className="flex w-auto justify-around">
-                        <img className="max-h-[70px] md:max-h-[150px] " src="https://cdn.icon-icons.com/icons2/2415/PNG/512/git_original_wordmark_logo_icon_146510.png" />
-                        <img className="max-h-[70px] md:max-h-[150px] " src="https://cdn.icon-icons.com/icons2/2406/PNG/512/github_git_icon_145985.png" />
+                        <img className="max-h-[70px] md:max-h-[150px] " src="git.png" />
+                        <img className="max-h-[70px] md:max-h-[150px] " src="github.png" />
                     </div>
                 </div>
 
@@ -38,28 +38,28 @@ export default function AboutMe(){
                 <div className="mx-10 mb-4 w-full h-full rounded-lg bg-lime-200">
                     <h2 class="text-center text-black bg-amber-300 text-xl md:text-2xl font-bold m-3 ">FrontEnd</h2>
                     <div className="grid sm:grid-cols-2 w-auto place-items-center">
-                        <img className="max-h-[70px] md:max-h-[130px] " src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png" />
-                        <img className="max-h-[70px] md:max-h-[130px] " src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png" />
-                        <img className="max-h-[70px] md:max-h-[130px] " src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_js_official_icon_130509.png" />
-                        <img className="max-h-[70px] md:max-h-[130px] " src="https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_wordmark_logo_icon_146375.png" />
+                        <img className="max-h-[70px] md:max-h-[130px] " src="html.png" />
+                        <img className="max-h-[70px] md:max-h-[130px] " src="css.png" />
+                        <img className="max-h-[70px] md:max-h-[130px] " src="js.png" />
+                        <img className="max-h-[70px] md:max-h-[130px] " src="react.png" />
                         <img className="max-h-[70px] md:max-h-[130px] " src="https://images.viblo.asia/aec9657d-51c9-4d60-acc3-b784680ff410.png" />
                     </div>
                 </div>
                 <div className="mx-10 mb-4 w-full h-full rounded-lg bg-lime-200">
                     <h2 class="text-center text-black bg-amber-300 text-xl md:text-2xl font-bold m-3 ">BackEnd</h2>
                     <div className="grid sm:grid-cols-2 w-auto place-items-center">
-                        <img className="max-h-[70px] md:max-h-[140px] " src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png" />
-                        <img className="max-h-[70px] md:max-h-[140px] " src="https://cdn-icons-png.flaticon.com/512/5098/5098178.png" />
-                        <img className="max-h-[70px] md:max-h-[140px] " src="https://velog.velcdn.com/images%2Fjogiyo%2Fpost%2F1c272be7-0161-48fe-b3c8-2d989671849d%2Fspringboot.png" />
-                        <img className="max-h-[70px] md:max-h-[140px] " src="https://cdn.icon-icons.com/icons2/2415/PNG/512/nodejs_original_wordmark_logo_icon_146412.png" />
+                        <img className="max-h-[70px] md:max-h-[140px] " src="java.png" />
+                        <img className="max-h-[70px] md:max-h-[140px] " src="jsp.png" />
+                        <img className="max-h-[70px] md:max-h-[140px] " src="springboot.png" />
+                        <img className="max-h-[70px] md:max-h-[140px] " src="nodejs.png" />
                     </div>
                 </div>
                 <div className="mx-10 mb-4 w-full h-full rounded-lg bg-lime-200">
                     <h2 class="text-center text-black bg-amber-300 text-xl md:text-2xl font-bold m-3 ">DataBase</h2>
                     <div className="grid sm:grid-cols-2 w-auto place-items-center">
-                        <img className="max-h-[70px] md:max-h-[140px] " src="https://cdn.icon-icons.com/icons2/2415/PNG/512/oracle_original_logo_icon_146401.png" />
-                        <img className="max-h-[70px] md:max-h-[140px] " src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mysql_original_wordmark_logo_icon_146417.png" />
-                        <img className="max-h-[70px] md:max-h-[140px] " src="https://media.amazonwebservices.com/blog/2015/mariadb_seal_shaded_browntext_alt_1.png" />
+                        <img className="max-h-[70px] md:max-h-[140px] " src="oracle.png" />
+                        <img className="max-h-[70px] md:max-h-[140px] " src="mysql.png" />
+                        <img className="max-h-[70px] md:max-h-[140px] " src="mariadb.png" />
                     </div>
                 </div>
             </div>
