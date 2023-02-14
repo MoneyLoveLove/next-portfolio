@@ -42,7 +42,7 @@ export default function AboutMe(){
                         <img className="max-h-[70px] md:max-h-[130px] " src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png" />
                         <img className="max-h-[70px] md:max-h-[130px] " src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_js_official_icon_130509.png" />
                         <img className="max-h-[70px] md:max-h-[130px] " src="https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_wordmark_logo_icon_146375.png" />
-                        {/* <img className="max-h-[70px] md:max-h-[130px] " src="https://images.viblo.asia/aec9657d-51c9-4d60-acc3-b784680ff410.png" /> */}
+                        <img className="max-h-[70px] md:max-h-[130px] " src="https://images.viblo.asia/aec9657d-51c9-4d60-acc3-b784680ff410.png" />
                     </div>
                 </div>
                 <div className="mx-10 mb-4 w-full h-full rounded-lg bg-lime-200">
