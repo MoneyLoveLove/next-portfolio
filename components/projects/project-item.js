@@ -41,8 +41,8 @@ export default function ProjectItem({data}){
             />
 
             <div className="p-4 flex flex-col">
-                <h1 className="text-xl lg:text-3xl font-bold">{title}</h1>
-                <h3 className="mt-4 text-lg lg:text-2xl">{description}</h3>
+                <h1 className="text-2xl lg:text-2xl font-bold">{title}</h1>
+                <h3 className="mt-4 text-xl lg:text-lg">{description}</h3>
                 <a target='_blank' rel="noopener noreferrer" href={github}>깃허브 바로가기</a>
                 <p className="my-1 ">
                     작업기간 : {start} ~ {end} ({calculatedPeriod(start, end)}일)
